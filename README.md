@@ -2,7 +2,7 @@ A series of image classification nets (ResNet, shifted window transformer) train
 
 A short write-up of the findings can be found in "buildings_writeup.pdf" in this directory.
 
-Code for a packaged prototype can be found in the "webapp" subdirectory. You can access the prototype here: https://mshteyn.pythonanywhere.com/
+Code for a packaged prototype can be found in the /webapp subdirectory. You can access the prototype here: https://mshteyn.pythonanywhere.com/
 
 <img width="1087" alt="house properties" src="https://github.com/mshteyn/house-classifier/assets/5659756/8101c618-787a-4a86-9b1a-7f6cc425f03e">
 
