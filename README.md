@@ -1,4 +1,4 @@
-Trained and tested a series of image classification nets (ResNet, shifted window transformer) to predict the assessed value, year of construction, and total living area from Google Street View images of Pittsburgh-area homes.
+A series of image classification nets (ResNet, shifted window transformer) trained to predict the assessed value, year of construction, and total living area from Google Street View images of Pittsburgh-area homes.
 
 A short write-up of the findings can be found in "buildings_writeup.pdf" in this directory.
 
