@@ -4,9 +4,26 @@
   </head>
   <body>
     <h1>Pittsburgh House Classifier</h1>
-    <form method="POST" enctype="multipart/form-data" action="/predict">
+    <p>Upload an image of a house in .jpg format. </p>
+    <p>Then click predict.</p>
+
+    <form id = "upload-form" method="POST" enctype="multipart/form-data" action="/predict" onsubmit="return validateForm()">
       <input type="file" name="image">
       <input type="submit" value="Predict">
     </form>
+
+    <script>
+        function validateForm() {
+            var fileInput = document.getElementById('upload-form').elements['image'];
+            
+            if (fileInput.files.length === 0) {
+                alert('Please upload an image before predicting.');
+                return false;  // Prevent the form from submitting
+            }
+
+            return true;  // Allow the form to submit
+        }
+    </script>
+
   </body>
 </html>
