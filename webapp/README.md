@@ -2,5 +2,4 @@ The is a flasked version of the ResNet classifier.
 Test the prototype: 
 
 https://mshteyn.pythonanywhere.com/
-
-![image](https://github.com/mshteyn/house-classifier/assets/5659756/91a120c1-4d88-4c4e-99f3-88966dc88c17)
+<img width="401" alt="image" src="https://github.com/mshteyn/Street-View-Classifier/assets/5659756/7b418d1f-1a02-43dc-925a-48e82407e669">
